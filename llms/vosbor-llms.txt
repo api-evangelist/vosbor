@@ -1,0 +1,31 @@
+# Vosbor
+
+> Vosbor is a digital trading platform for bulk agricultural commodities — corn, wheat, soybean, palm oil and other grains and oilseeds — offering spot and forward markets, integrated KYC, encrypted trade data, straight-through processing, and a WhatsApp AI broker. Headquartered in Amsterdam (Vosbor Exchange B.V.) with offices in Singapore and Shanghai; founded in 2019 and backed by Lux Capital.
+
+Vosbor publishes no public developer portal, API documentation, or machine-readable API specifications. Its marketing site notes that market data is "downloadable in .csv for Excel or through API," but API access appears to be customer-only with no public reference. The trading platform itself lives at exchange.vosbor.com (sign-in required).
+
+<!-- generated: 2026-07-21 | method: generated | source: apis.yml + www.vosbor.com (Gatsby page-data) -->
+
+## Company
+
+- [Website](https://www.vosbor.com/): Marketing site for the commodity trading platform
+- [Who we are](https://www.vosbor.com/who-we-are/): Company, leadership, and board
+- [Press](https://www.vosbor.com/press/): Press and news coverage
+- [Careers](https://www.vosbor.com/careers/): Open roles in Amsterdam, Singapore, and Shanghai
+- [Contact](https://www.vosbor.com/contact/): Office addresses and contact form
+
+## Platform
+
+- [Vosbor Exchange (sign in)](https://www.exchange.vosbor.com/): The trading platform
+- [Register](https://www.exchange.vosbor.com/register): Request platform access
+- [iOS app](https://apps.apple.com/app/vosbor/id1571306210): Vosbor on the App Store
+- [Android app](https://play.google.com/store/apps/details?id=exchange.vosbor.mobile): Vosbor on Google Play
+
+## Legal
+
+- [Privacy policy](https://www.vosbor.com/privacy-policy/)
+- [Legal notice](https://www.vosbor.com/legal-notice/)
+
+## Optional
+
+- [GitHub organization](https://github.com/vosbor): Public repos (site frontpages and forks; no SDKs or specs)

@@ -1,0 +1,46 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of vosbor.ai, vosbor.com, exchange.vosbor.com
+name: Vosbor well-known endpoints
+description: >-
+  Probe results for RFC 8615 well-known URIs and llms.txt across Vosbor's
+  public hosts. No well-known artifacts are published; the exchange host
+  returns its SPA shell (HTTP 200, text/html) for every unknown path, so the
+  200s recorded there are catch-all responses, not real artifacts. Absence is
+  recorded as valid data.
+probed:
+- host: www.vosbor.ai
+  endpoints:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: www.vosbor.com
+  endpoints:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+- host: www.exchange.vosbor.com
+  endpoints:
+  - path: /.well-known/security.txt
+    status: 200
+    note: SPA catch-all — returns the HTML application shell, not RFC 9116 text
+  - path: /llms.txt
+    status: 200
+    note: SPA catch-all — returns the HTML application shell, not llms.txt
+findings: none

@@ -1,8 +1,15 @@
 aid: vosbor
 name: Vosbor
-description: 'Vosbor is a company surfaced as a portfolio company of lux-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: agritech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Vosbor is a digital trading platform for bulk agricultural commodities,
+  headquartered in Amsterdam with offices in Singapore and Shanghai. Founded in
+  2019 and backed by Lux Capital, its exchange lets trading firms and end users
+  trade corn, wheat, soybean, palm oil and other grains and oilseeds in spot
+  and forward markets, with integrated KYC, encrypted trade data, straight-through
+  processing, and a WhatsApp AI broker that negotiates with multiple
+  counterparties simultaneously. Market data is downloadable in CSV, and the
+  company advertises data access through an API for customers, but publishes no
+  public developer portal or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/vosbor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +17,64 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.vosbor.com/icons/icon-512x512.png
 tags:
 - Company
 - Agritech
+- Commodities
+- Trading
+- Agriculture
+- Exchange
+- Marketplace
+- Grain
+- Oilseeds
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vosbor-domain-security.yml
+- type: Website
+  url: https://www.vosbor.com/
+- type: Login
+  url: https://www.exchange.vosbor.com/
+- type: SignUp
+  url: https://www.exchange.vosbor.com/register
+- type: PrivacyPolicy
+  url: https://www.vosbor.com/privacy-policy/
+- type: LegalNotice
+  url: https://www.vosbor.com/legal-notice/
+- type: Support
+  url: https://www.vosbor.com/contact/
+- type: Careers
+  url: https://www.vosbor.com/careers/
+- type: Press
+  url: https://www.vosbor.com/press/
+- type: GitHubOrganization
+  url: https://github.com/vosbor
+- type: AppStore
+  url: https://apps.apple.com/app/vosbor/id1571306210
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=exchange.vosbor.mobile
+- type: LLMsTxt
+  url: llms/vosbor-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
