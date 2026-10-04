@@ -50,7 +50,7 @@ modified: '2026-07-21'
 image: https://www.vosbor.com/icons/icon-512x512.png
 tags:
 - Company
-- AgriTech
+- AgTech
 - Commodities
 - Trading
 - Agriculture
@@ -68,6 +68,7 @@ tags_raw:
 - Marketplace
 - Grain
 - Oilseeds
+- AgriTech
 apis: []
 common:
 - type: DomainSecurity
